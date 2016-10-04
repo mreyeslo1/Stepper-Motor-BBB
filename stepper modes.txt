@@ -1,0 +1,12 @@
+In full step there are always two phases (max torque). In half step, the step resolution is doubled and it alternates two phases on and a single phase on (torque is about ¾ max). 
+In both quarter and eighth step, the phase currents use sine and cosine waveform rather than on/off currents. Thus, both quarter and eighth step have higher step resolution and the torque would reduce significantly. 
+The steps in each mode are very visible as full step is a clean, fast and smooth rotation. Half Step is similar to full but the steps are starting to slow down in the rotation.
+Quarter step is even more noticeable as the motor starts to vibrate more vigorously  and slower than half step. Eighth step is the slowest of all the modes and has small vibrations for each step.
+
+The vibrations for each of modes are different, Mode 1 has large steps and a heavy vibration misses some steps.
+Mode2 has smaller vibrations and skips sometimes. 
+Mode 3 even smaller vibrations  
+and mode 4 has tiny vibrations that make the motor move on the table.
+
+When the voltage is set to 12 V the motor runs hotter than the other voltage levels. All the modes are consistent in movement. 10V starts to show that the steps are a bit coarse and more miss steps. 8V shows even more coarse steps and skips some steps, step are also more audible.
+
